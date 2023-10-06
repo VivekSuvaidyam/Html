@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color:white;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    /* justify-content: ; */
+    top: 0;
+    left: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    margin-left: 60px;
+}
+.nav-logo{
+    margin-top: 10px;
+    /* margin-left: 70px; */
+    height: 100%;
+    width: 100%
+}
+.imgdiv{
+    width: 200px;
+    height: 60px;
+}
+.ul{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    /* margin-right: 20px; */
+    /* margin-left: 50px;/ */
+    /* padding-top: 30px;
+    gap: 3px; */
+}
+.uldiv{
+    display: flex;
+    
+}
+.about{
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.involved{
+    background-color: white;
+    margin-right: 5px;
+    height: 40px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.involved:hover{
+    background-color:rgb(3, 3, 34);
+    color: white;
+    border: none;
+}
+
+.image1{
+    /* width: 100%; */
+    /* height: 600px; */
+    /* background-size: cover; */
+    /* background-image: url('./home-img.8eddafd832569812db06.jpg'); */
+}
+.text{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 70px;
+}
+.text2{
+    text-align: center;
+    
+}
+.border1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 110px;
+    width: 100%;
+    padding-left: 100px;
+    
+    
+}
+
+
+.border1-text{
+    border-bottom: 1px solid red;
+    width: 40px;
+    padding: 5px;
+}
+
+
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+.f-div1{
+    /* width: 100%;
+    height: 450px;
+    margin-right: 100px; */
+    padding: 40px;
+    margin-right: 220px;
+    font-size: 20px;
+   
+}
+    
+
+.TEXT-p{
+    width: 100%;
+    margin-left: 60%;
+    font-size: 30px;
+    padding: 20px;
+
+}
+.a-tag {
+    font-size: small;
+}
+
+.photo {
+    height: 500px;
+    width: 40%;
+}
+
+.container2 {
+    display: flex;
+}
+
+.pic-size {
+    height: 500px;
+}
+.pragraph-size {
+    margin: 90PX ;
+    margin-top: 0;
+    padding-right: 150px;
+    font-size: 20px;
+
+}
+.p-text1 {
+    font-size: 60px;
+}
+.p-text2 {
+    font-size: 25px;
+}
+
+.boton {
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.boton:hover {
+    background-color: black;
+    color: white;
+
+}
+
+    .parent-flex {
+    display: flex;
+    gap: 20px;
+
+    }
+
+    .parag1 {
+        font-size: 50px;
+    margin-left: 280px;
+    }
+
+    .para1 {
+        margin-top: 25px;
+    }
+
+    .border-next {
+        border-bottom:  1px solid black;
+        width: 60px;
+        margin-top: 35px;
+        margin-left: 50px;
+    }
+   
+.picture {
+   width: 120px;
+   height: 50px;
+}
+
+.pictures{
+display: flex;
+gap: 90px;
+margin-left: 230px;
+padding: 50px;
+}
+
+
+.little {
+    margin-top: 70px;
+    background-color: rgb(4, 4, 61);
+    height: 400px;
+   
+}
+.p-little {
+    justify-content: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    padding: 0px 400px;
+    /* text-align: center; */
+} 
+.pragraph-text {
+    margin-left: 15px;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.support {
+    margin: 50px 295px;
+    
+}
+.border-flex {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.border {
+    border-bottom: 1px solid rgb(73, 22, 211);
+    width: 35px;
+    padding-top: 8px;
+}
+
+.button3 {
+    background-color: rgb(2, 2, 53);
+    color: white;
+    height: 35px;
+    width: 15%;
+    margin-top: 20px;
+}
+.button3:hover {
+    background-color: white;
+    color:black
+
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-left: 70px;
+  
+    
+    
+}
+
+.icon {
+    margin-top: 20px;
+    height: 40px;
+}
+
+.button4 {
+    border: 2px solid black;
+    height: 15px;
+    width: 55%;
+    padding: 10px;
+}
+
+.parent{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+.button5 {
+    border: 2px solid black;
+    height: 39px;
+    width: 40%;
+    padding: 10px;
+}
+.button5:hover {
+    background-color: rgb(34, 5, 87);
+    color: white;
+}
+
+.footer-bar {
+    margin-top: 20px;
+    background-color: rgb(9, 6, 49);
+    height: 70px;
+    width: 100%;
+}
+.f-footer {
+    color: white;
+    margin-left: 290px;
+    padding-top: 30px;
+}
+.menu{
+    display: flex;
+    justify-content: end;
+}
+.jj{
+    width: 20%;
+}
+@media only screen and (max-width: 760px) {
+    .ul{
+
+        display: none;
+    }
+} 
+
+    

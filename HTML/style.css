@@ -1,0 +1,19 @@
+p {
+    color:red;
+}
+#boy {
+    color: blue;
+    text-align: center;
+}
+#girl{
+    color:green;
+}
+#name {
+    margin-left: 20px;
+}
+body {
+    background-color: lightblue;
+}
+#para1 {
+    color: brown;
+}

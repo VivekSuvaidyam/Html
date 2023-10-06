@@ -1,0 +1,11 @@
+div {
+    height: 200px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid red;
+    display: inline flex;
+}
+div:hover{
+    background-color: blue;
+    color:rgb(44, 218, 9);
+}

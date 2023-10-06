@@ -1,0 +1,20 @@
+ul {
+    background-color: #f1f1f1;
+    width: 200px ;
+}
+
+li {
+    background-color:#555;
+    color: #c6cac7;
+    text-decoration: none;
+
+}
+
+li:hover {
+    background-color: red;
+    color: rgb(117, 17, 231);
+}
+
+li a.active {
+    background-color: aqua;
+    color: #1a1818;

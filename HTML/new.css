@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(28, 218, 60);
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    color: rgb(224, 221, 18);
+    font-size: 200%;
+}
+#para {
+    color: rgb(255, 0, 157);
+} 
+
+button {
+    color:rgb(21, 6, 230);
+}
+a {
+    text-decoration: none;
+}
+.parent{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.child1{
+    width: 100%;
+}
+#mypic {
+    background-image: url("./mypic.jpeg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right top; 
+    margin-right: 200px;
+    background-size: cover;
+
+    background-color: #fff;
+}

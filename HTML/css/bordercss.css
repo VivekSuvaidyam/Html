@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+p.one {
+    border-style:solid;
+    border-color: aqua red green blue;
+}
+p.two {
+    border-style: double;
+    border-color: blueviolet;
+}
+p.three {
+    border-style:solid;
+    border-color: blue;
+}
+p.four {
+    border-style: dotted;
+    border-color: rgb(31, 10, 90);
+}
+p.five {
+    border:5px solid;
+}

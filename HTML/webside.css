@@ -1,0 +1,70 @@
+
+.body {
+    margin: 0;
+}
+
+
+.header {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .row{
+    width: 100%;
+    display: flex;
+  }
+
+  .column{
+    width: 33%;
+    padding: 10PX;
+  }
+
+  .column:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+  .left {
+    background-color: red;
+  }
+  
+
+  .middle {
+    background-color: green;
+  }
+  .right {
+    background-color: blue;
+  }
+
+  .footer {
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+  }
+
+  
+
+
+
+  
